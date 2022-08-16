@@ -457,6 +457,267 @@ pub const COLOR_V99: Color = Color::new(
     Rgb::new(79, 51, 77),
 );
 
+pub const COLOR_RV0000: Color = Color::new(
+    "RV0000",
+    "Evening Primrose",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(246, 239, 246),
+);
+
+pub const COLOR_RV000: Color = Color::new(
+    "RV000",
+    "Pale Purple",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(247, 233, 241),
+);
+
+pub const COLOR_RV00: Color = Color::new(
+    "RV00",
+    "Water Lily",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(243, 211, 233),
+);
+
+pub const COLOR_RV02: Color = Color::new(
+    "RV02",
+    "Sugared Almond Pink",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(252, 222, 233),
+);
+
+pub const COLOR_RV04: Color = Color::new(
+    "RV04",
+    "Shock Pink",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B4,
+    Rgb::new(249, 176, 197),
+);
+
+pub const COLOR_RV06: Color = Color::new(
+    "RV06",
+    "Cerise",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B6,
+    Rgb::new(238, 134, 174),
+);
+
+pub const COLOR_RV09: Color = Color::new(
+    "RV09",
+    "Fuchsia",
+    Hue::RedViolet,
+    Saturation::S0,
+    Brightness::B9,
+    Rgb::new(232, 124, 172),
+);
+
+pub const COLOR_RV10: Color = Color::new(
+    "RV10",
+    "Pale Pink",
+    Hue::RedViolet,
+    Saturation::S1,
+    Brightness::B0,
+    Rgb::new(254, 241, 245),
+);
+
+pub const COLOR_RV11: Color = Color::new(
+    "RV11",
+    "Pink",
+    Hue::RedViolet,
+    Saturation::S1,
+    Brightness::B1,
+    Rgb::new(252, 223, 227),
+);
+
+pub const COLOR_RV13: Color = Color::new(
+    "RV13",
+    "Tender Pink",
+    Hue::RedViolet,
+    Saturation::S1,
+    Brightness::B3,
+    Rgb::new(252, 211, 222),
+);
+
+pub const COLOR_RV14: Color = Color::new(
+    "RV14",
+    "Begonia Pink",
+    Hue::RedViolet,
+    Saturation::S1,
+    Brightness::B4,
+    Rgb::new(248, 160, 188),
+);
+
+pub const COLOR_RV17: Color = Color::new(
+    "RV17",
+    "Deep Magenta",
+    Hue::RedViolet,
+    Saturation::S1,
+    Brightness::B7,
+    Rgb::new(229, 139, 181),
+);
+
+pub const COLOR_RV19: Color = Color::new(
+    "RV19",
+    "Red Violet",
+    Hue::RedViolet,
+    Saturation::S1,
+    Brightness::B9,
+    Rgb::new(222, 115, 167),
+);
+
+pub const COLOR_RV21: Color = Color::new(
+    "RV21",
+    "Light Pink",
+    Hue::RedViolet,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(254, 238, 237),
+);
+
+pub const COLOR_RV23: Color = Color::new(
+    "RV23",
+    "Pure Pink",
+    Hue::RedViolet,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(251, 198, 207),
+);
+
+pub const COLOR_RV25: Color = Color::new(
+    "RV25",
+    "Dog Rose Flower",
+    Hue::RedViolet,
+    Saturation::S2,
+    Brightness::B5,
+    Rgb::new(248, 161, 193),
+);
+
+pub const COLOR_RV29: Color = Color::new(
+    "RV29",
+    "Crimson",
+    Hue::RedViolet,
+    Saturation::S2,
+    Brightness::B9,
+    Rgb::new(241, 74, 129),
+);
+
+pub const COLOR_RV32: Color = Color::new(
+    "RV32",
+    "Shadow Pink",
+    Hue::RedViolet,
+    Saturation::S3,
+    Brightness::B2,
+    Rgb::new(253, 220, 215),
+);
+
+pub const COLOR_RV34: Color = Color::new(
+    "RV34",
+    "Dark Pink",
+    Hue::RedViolet,
+    Saturation::S3,
+    Brightness::B4,
+    Rgb::new(251, 188, 184),
+);
+
+pub const COLOR_RV42: Color = Color::new(
+    "RV42",
+    "Salmon Pink",
+    Hue::RedViolet,
+    Saturation::S4,
+    Brightness::B2,
+    Rgb::new(251, 199, 191),
+);
+
+pub const COLOR_RV52: Color = Color::new(
+    "RV52",
+    "Cotton Candy",
+    Hue::RedViolet,
+    Saturation::S5,
+    Brightness::B2,
+    Rgb::new(220, 156, 182),
+);
+
+pub const COLOR_RV55: Color = Color::new(
+    "RV55",
+    "Hollyhock",
+    Hue::RedViolet,
+    Saturation::S5,
+    Brightness::B5,
+    Rgb::new(217, 97, 150),
+);
+
+pub const COLOR_RV63: Color = Color::new(
+    "RV63",
+    "Begonia",
+    Hue::RedViolet,
+    Saturation::S6,
+    Brightness::B3,
+    Rgb::new(219, 138, 181),
+);
+
+pub const COLOR_RV66: Color = Color::new(
+    "RV66",
+    "Raspberry",
+    Hue::RedViolet,
+    Saturation::S6,
+    Brightness::B6,
+    Rgb::new(141, 55, 101),
+);
+
+pub const COLOR_RV69: Color = Color::new(
+    "RV69",
+    "Peony",
+    Hue::RedViolet,
+    Saturation::S6,
+    Brightness::B9,
+    Rgb::new(156, 98, 118),
+);
+
+pub const COLOR_RV91: Color = Color::new(
+    "RV91",
+    "Grayish Cherry",
+    Hue::RedViolet,
+    Saturation::S9,
+    Brightness::B1,
+    Rgb::new(237, 222, 232),
+);
+
+pub const COLOR_RV93: Color = Color::new(
+    "RV93",
+    "Smoky Purple",
+    Hue::RedViolet,
+    Saturation::S9,
+    Brightness::B3,
+    Rgb::new(238, 195, 210),
+);
+
+pub const COLOR_RV95: Color = Color::new(
+    "RV95",
+    "Baby Blossoms",
+    Hue::RedViolet,
+    Saturation::S9,
+    Brightness::B5,
+    Rgb::new(198, 148, 170),
+);
+
+pub const COLOR_RV99: Color = Color::new(
+    "RV99",
+    "Argyle Purple",
+    Hue::RedViolet,
+    Saturation::S9,
+    Brightness::B9,
+    Rgb::new(110, 87, 100),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -492,8 +753,35 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_V93,
     COLOR_V95,
     COLOR_V99,
-    // RV0000, RV000, RV00, RV02, RV04, RV06, RV09, RV10, RV11, RV13, RV14, RV17, RV19, RV21,
-    // RV23, RV25, RV29, RV32, RV34, RV42, RV52, RV55, RV63, RV66, RV69, RV91, RV93, RV95, RV99,
+    COLOR_RV0000,
+    COLOR_RV000,
+    COLOR_RV00,
+    COLOR_RV02,
+    COLOR_RV04,
+    COLOR_RV06,
+    COLOR_RV09,
+    COLOR_RV10,
+    COLOR_RV11,
+    COLOR_RV13,
+    COLOR_RV14,
+    COLOR_RV17,
+    COLOR_RV19,
+    COLOR_RV21,
+    COLOR_RV23,
+    COLOR_RV25,
+    COLOR_RV29,
+    COLOR_RV32,
+    COLOR_RV34,
+    COLOR_RV42,
+    COLOR_RV52,
+    COLOR_RV55,
+    COLOR_RV63,
+    COLOR_RV66,
+    COLOR_RV69,
+    COLOR_RV91,
+    COLOR_RV93,
+    COLOR_RV95,
+    COLOR_RV99,
     // R0000, R000, R00, R01, R02, R05, R08, R11, R12, R14, R17, R20, R21, R22, R24, R27, R29, R30,
     // R32, R35, R37, R39, R43, R46, R56, R59, R81, R83, R85, R89, YR0000, YR000, YR00, YR01, YR02,
     // YR04, YR07, YR09, YR12, YR14, YR15, YR16, YR18, YR20, YR21, YR23, YR24, YR27, YR30, YR31, YR61,
