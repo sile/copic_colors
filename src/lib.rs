@@ -2383,6 +2383,483 @@ pub const COLOR_B99: Color = Color::new(
     Rgb::new(0, 77, 122),
 );
 
+pub const COLOR_E0000: Color = Color::new(
+    "E0000",
+    "Floral White",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(255, 250, 243),
+);
+
+pub const COLOR_E000: Color = Color::new(
+    "E000",
+    "Pale Fruit Pink",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(255, 248, 241),
+);
+
+pub const COLOR_E00: Color = Color::new(
+    "E00",
+    "Cotton Pearl",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(255, 246, 238),
+);
+
+pub const COLOR_E01: Color = Color::new(
+    "E01",
+    "Pink Flamingo",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B1,
+    Rgb::new(255, 242, 233),
+);
+
+pub const COLOR_E02: Color = Color::new(
+    "E02",
+    "Fruit Pink",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(255, 241, 230),
+);
+
+pub const COLOR_E04: Color = Color::new(
+    "E04",
+    "Lipstick Rose",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B4,
+    Rgb::new(236, 202, 206),
+);
+
+pub const COLOR_E07: Color = Color::new(
+    "E07",
+    "Light Mahogany",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B7,
+    Rgb::new(217, 146, 120),
+);
+
+pub const COLOR_E08: Color = Color::new(
+    "E08",
+    "Brown",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B8,
+    Rgb::new(213, 116, 92),
+);
+
+pub const COLOR_E09: Color = Color::new(
+    "E09",
+    "Burnt Sienna",
+    Hue::Earth,
+    Saturation::S0,
+    Brightness::B9,
+    Rgb::new(226, 116, 83),
+);
+
+pub const COLOR_E11: Color = Color::new(
+    "E11",
+    "Barley Beige",
+    Hue::Earth,
+    Saturation::S1,
+    Brightness::B1,
+    Rgb::new(255, 239, 222),
+);
+
+pub const COLOR_E13: Color = Color::new(
+    "E13",
+    "Desert Sand",
+    Hue::Earth,
+    Saturation::S1,
+    Brightness::B3,
+    Rgb::new(239, 210, 187),
+);
+
+pub const COLOR_E15: Color = Color::new(
+    "E15",
+    "Earthenware",
+    Hue::Earth,
+    Saturation::S1,
+    Brightness::B5,
+    Rgb::new(253, 199, 151),
+);
+
+pub const COLOR_E17: Color = Color::new(
+    "E17",
+    "Reddish Brass",
+    Hue::Earth,
+    Saturation::S1,
+    Brightness::B7,
+    Rgb::new(196, 102, 85),
+);
+
+pub const COLOR_E18: Color = Color::new(
+    "E18",
+    "Copper",
+    Hue::Earth,
+    Saturation::S1,
+    Brightness::B8,
+    Rgb::new(151, 86, 74),
+);
+
+pub const COLOR_E19: Color = Color::new(
+    "E19",
+    "Redwood",
+    Hue::Earth,
+    Saturation::S1,
+    Brightness::B9,
+    Rgb::new(206, 84, 37),
+);
+
+pub const COLOR_E21: Color = Color::new(
+    "E21",
+    "Soft Sun",
+    Hue::Earth,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(255, 233, 210),
+);
+
+pub const COLOR_E23: Color = Color::new(
+    "E23",
+    "Hazelnut",
+    Hue::Earth,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(170, 106, 75),
+);
+
+pub const COLOR_E25: Color = Color::new(
+    "E25",
+    "Caribe Cocoa",
+    Hue::Earth,
+    Saturation::S2,
+    Brightness::B5,
+    Rgb::new(223, 182, 147),
+);
+
+pub const COLOR_E27: Color = Color::new(
+    "E27",
+    "Milk Chocolate",
+    Hue::Earth,
+    Saturation::S2,
+    Brightness::B7,
+    Rgb::new(172, 134, 109),
+);
+
+pub const COLOR_E29: Color = Color::new(
+    "E29",
+    "Burnt Umber",
+    Hue::Earth,
+    Saturation::S2,
+    Brightness::B9,
+    Rgb::new(144, 63, 10),
+);
+
+pub const COLOR_E30: Color = Color::new(
+    "E30",
+    "Bisque",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B0,
+    Rgb::new(247, 239, 207),
+);
+
+pub const COLOR_E31: Color = Color::new(
+    "E31",
+    "Brick Beige",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B1,
+    Rgb::new(246, 236, 215),
+);
+
+pub const COLOR_E33: Color = Color::new(
+    "E33",
+    "Sand",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B3,
+    Rgb::new(246, 220, 189),
+);
+
+pub const COLOR_E34: Color = Color::new(
+    "E34",
+    "Toast",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B4,
+    Rgb::new(245, 215, 179),
+);
+
+pub const COLOR_E35: Color = Color::new(
+    "E35",
+    "Chamois",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B5,
+    Rgb::new(238, 210, 178),
+);
+
+pub const COLOR_E37: Color = Color::new(
+    "E37",
+    "Sepia",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B7,
+    Rgb::new(217, 165, 102),
+);
+
+pub const COLOR_E39: Color = Color::new(
+    "E39",
+    "Leather",
+    Hue::Earth,
+    Saturation::S3,
+    Brightness::B9,
+    Rgb::new(210, 125, 51),
+);
+
+pub const COLOR_E40: Color = Color::new(
+    "E40",
+    "Brick White",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B0,
+    Rgb::new(247, 240, 229),
+);
+
+pub const COLOR_E41: Color = Color::new(
+    "E41",
+    "Pearl White",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B1,
+    Rgb::new(255, 244, 232),
+);
+
+pub const COLOR_E42: Color = Color::new(
+    "E42",
+    "Sand White",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B2,
+    Rgb::new(242, 232, 211),
+);
+
+pub const COLOR_E43: Color = Color::new(
+    "E43",
+    "Dull Ivory",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B3,
+    Rgb::new(240, 230, 203),
+);
+
+pub const COLOR_E44: Color = Color::new(
+    "E44",
+    "Clay",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B4,
+    Rgb::new(212, 201, 182),
+);
+
+pub const COLOR_E47: Color = Color::new(
+    "E47",
+    "Dark Brown",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B7,
+    Rgb::new(154, 130, 108),
+);
+
+pub const COLOR_E49: Color = Color::new(
+    "E49",
+    "Dark Bark",
+    Hue::Earth,
+    Saturation::S4,
+    Brightness::B9,
+    Rgb::new(122, 93, 69),
+);
+
+pub const COLOR_E50: Color = Color::new(
+    "E50",
+    "Egg Shell",
+    Hue::Earth,
+    Saturation::S5,
+    Brightness::B0,
+    Rgb::new(247, 240, 241),
+);
+
+pub const COLOR_E51: Color = Color::new(
+    "E51",
+    "Milky White",
+    Hue::Earth,
+    Saturation::S5,
+    Brightness::B1,
+    Rgb::new(255, 241, 222),
+);
+
+pub const COLOR_E53: Color = Color::new(
+    "E53",
+    "Raw Silk",
+    Hue::Earth,
+    Saturation::S5,
+    Brightness::B3,
+    Rgb::new(246, 236, 204),
+);
+
+pub const COLOR_E55: Color = Color::new(
+    "E55",
+    "Light Camel",
+    Hue::Earth,
+    Saturation::S5,
+    Brightness::B5,
+    Rgb::new(245, 230, 196),
+);
+
+pub const COLOR_E57: Color = Color::new(
+    "E57",
+    "Light Walnut",
+    Hue::Earth,
+    Saturation::S5,
+    Brightness::B7,
+    Rgb::new(194, 154, 106),
+);
+
+pub const COLOR_E59: Color = Color::new(
+    "E59",
+    "Walnut",
+    Hue::Earth,
+    Saturation::S5,
+    Brightness::B9,
+    Rgb::new(173, 144, 118),
+);
+
+pub const COLOR_E70: Color = Color::new(
+    "E70",
+    "Ash Rose",
+    Hue::Earth,
+    Saturation::S7,
+    Brightness::B0,
+    Rgb::new(241, 233, 226),
+);
+
+pub const COLOR_E71: Color = Color::new(
+    "E71",
+    "Champagne",
+    Hue::Earth,
+    Saturation::S7,
+    Brightness::B1,
+    Rgb::new(235, 225, 218),
+);
+
+pub const COLOR_E74: Color = Color::new(
+    "E74",
+    "Cocoa Brown",
+    Hue::Earth,
+    Saturation::S7,
+    Brightness::B4,
+    Rgb::new(181, 153, 140),
+);
+
+pub const COLOR_E77: Color = Color::new(
+    "E77",
+    "Maroon",
+    Hue::Earth,
+    Saturation::S7,
+    Brightness::B7,
+    Rgb::new(148, 113, 87),
+);
+
+pub const COLOR_E79: Color = Color::new(
+    "E79",
+    "Cashew",
+    Hue::Earth,
+    Saturation::S7,
+    Brightness::B9,
+    Rgb::new(82, 56, 45),
+);
+
+pub const COLOR_E81: Color = Color::new(
+    "E81",
+    "Ivory",
+    Hue::Earth,
+    Saturation::S8,
+    Brightness::B1,
+    Rgb::new(220, 205, 152),
+);
+
+pub const COLOR_E84: Color = Color::new(
+    "E84",
+    "Khaki",
+    Hue::Earth,
+    Saturation::S8,
+    Brightness::B4,
+    Rgb::new(180, 149, 95),
+);
+
+pub const COLOR_E87: Color = Color::new(
+    "E87",
+    "Fig",
+    Hue::Earth,
+    Saturation::S8,
+    Brightness::B7,
+    Rgb::new(91, 77, 56),
+);
+
+pub const COLOR_E89: Color = Color::new(
+    "E89",
+    "Pecan",
+    Hue::Earth,
+    Saturation::S8,
+    Brightness::B9,
+    Rgb::new(123, 116, 106),
+);
+
+pub const COLOR_E93: Color = Color::new(
+    "E93",
+    "Tea Rose",
+    Hue::Earth,
+    Saturation::S9,
+    Brightness::B3,
+    Rgb::new(254, 219, 194),
+);
+
+pub const COLOR_E95: Color = Color::new(
+    "E95",
+    "Tea Orange",
+    Hue::Earth,
+    Saturation::S9,
+    Brightness::B5,
+    Rgb::new(254, 199, 136),
+);
+
+pub const COLOR_E97: Color = Color::new(
+    "E97",
+    "Deep Orange",
+    Hue::Earth,
+    Saturation::S9,
+    Brightness::B7,
+    Rgb::new(243, 169, 98),
+);
+
+pub const COLOR_E99: Color = Color::new(
+    "E99",
+    "Baked Clay",
+    Hue::Earth,
+    Saturation::S9,
+    Brightness::B9,
+    Rgb::new(192, 101, 8),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -2630,10 +3107,60 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_B95,
     COLOR_B97,
     COLOR_B99,
-    // E0000, E000, E00, E01, E02,
-    // E04, E07, E08, E09, E11, E13, E15, E17, E18, E19, E21, E23, E25, E27, E29, E30, E31, E33, E34,
-    // E35, E37, E39, E40, E41, E42, E43, E44, E47, E49, E50, E51, E53, E55, E57, E59, E70, E71, E74,
-    // E77, E79, E81, E84, E87, E89, E93, E95, E97, E99, C00, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9,
+    COLOR_E0000,
+    COLOR_E000,
+    COLOR_E00,
+    COLOR_E01,
+    COLOR_E02,
+    COLOR_E04,
+    COLOR_E07,
+    COLOR_E08,
+    COLOR_E09,
+    COLOR_E11,
+    COLOR_E13,
+    COLOR_E15,
+    COLOR_E17,
+    COLOR_E18,
+    COLOR_E19,
+    COLOR_E21,
+    COLOR_E23,
+    COLOR_E25,
+    COLOR_E27,
+    COLOR_E29,
+    COLOR_E30,
+    COLOR_E31,
+    COLOR_E33,
+    COLOR_E34,
+    COLOR_E35,
+    COLOR_E37,
+    COLOR_E39,
+    COLOR_E40,
+    COLOR_E41,
+    COLOR_E42,
+    COLOR_E43,
+    COLOR_E44,
+    COLOR_E47,
+    COLOR_E49,
+    COLOR_E50,
+    COLOR_E51,
+    COLOR_E53,
+    COLOR_E55,
+    COLOR_E57,
+    COLOR_E59,
+    COLOR_E70,
+    COLOR_E71,
+    COLOR_E74,
+    COLOR_E77,
+    COLOR_E79,
+    COLOR_E81,
+    COLOR_E84,
+    COLOR_E87,
+    COLOR_E89,
+    COLOR_E93,
+    COLOR_E95,
+    COLOR_E97,
+    COLOR_E99,
+    // C00, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9,
     // C10, N0, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10,
     // W00, W0, W1, W2, W3, W4, W5, W6, W7, W8, W9, W10, // 0, 100, 110
     // FV, FRV, FYR, FY, FYG, FG, FBG, FB,
