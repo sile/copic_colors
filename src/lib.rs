@@ -988,6 +988,222 @@ pub const COLOR_R89: Color = Color::new(
     Rgb::new(145, 53, 77),
 );
 
+pub const COLOR_YR0000: Color = Color::new(
+    "YR0000",
+    "Pale Chiffon",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(252, 246, 235),
+);
+
+pub const COLOR_YR000: Color = Color::new(
+    "YR000",
+    "Silk",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(255, 241, 225),
+);
+
+pub const COLOR_YR00: Color = Color::new(
+    "YR00",
+    "Powder Pink",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(254, 223, 199),
+);
+
+pub const COLOR_YR01: Color = Color::new(
+    "YR01",
+    "Peach Puff",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B1,
+    Rgb::new(253, 214, 183),
+);
+
+pub const COLOR_YR02: Color = Color::new(
+    "YR02",
+    "Light Orange",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(255, 228, 207),
+);
+
+pub const COLOR_YR04: Color = Color::new(
+    "YR04",
+    "Chrome Orange",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B4,
+    Rgb::new(255, 207, 109),
+);
+
+pub const COLOR_YR07: Color = Color::new(
+    "YR07",
+    "Cadmium Orange",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B7,
+    Rgb::new(246, 120, 51),
+);
+
+pub const COLOR_YR09: Color = Color::new(
+    "YR09",
+    "Chinese Orange",
+    Hue::YellowRed,
+    Saturation::S0,
+    Brightness::B7,
+    Rgb::new(243, 87, 0),
+);
+
+pub const COLOR_YR12: Color = Color::new(
+    "YR12",
+    "Loquat",
+    Hue::YellowRed,
+    Saturation::S1,
+    Brightness::B2,
+    Rgb::new(254, 227, 145),
+);
+
+pub const COLOR_YR14: Color = Color::new(
+    "YR14",
+    "Caramel",
+    Hue::YellowRed,
+    Saturation::S1,
+    Brightness::B4,
+    Rgb::new(255, 211, 76),
+);
+
+pub const COLOR_YR15: Color = Color::new(
+    "YR15",
+    "Pumpkin Yellow",
+    Hue::YellowRed,
+    Saturation::S1,
+    Brightness::B5,
+    Rgb::new(255, 209, 152),
+);
+
+pub const COLOR_YR16: Color = Color::new(
+    "YR16",
+    "Apricot",
+    Hue::YellowRed,
+    Saturation::S1,
+    Brightness::B6,
+    Rgb::new(255, 196, 23),
+);
+
+pub const COLOR_YR18: Color = Color::new(
+    "YR18",
+    "Sanguine",
+    Hue::YellowRed,
+    Saturation::S1,
+    Brightness::B8,
+    Rgb::new(245, 115, 53),
+);
+
+pub const COLOR_YR20: Color = Color::new(
+    "YR20",
+    "Yellowish Shade",
+    Hue::YellowRed,
+    Saturation::S2,
+    Brightness::B0,
+    Rgb::new(255, 233, 201),
+);
+
+pub const COLOR_YR21: Color = Color::new(
+    "YR21",
+    "Cream",
+    Hue::YellowRed,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(248, 229, 187),
+);
+
+pub const COLOR_YR23: Color = Color::new(
+    "YR23",
+    "Yellow Ochre",
+    Hue::YellowRed,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(242, 219, 152),
+);
+
+pub const COLOR_YR24: Color = Color::new(
+    "YR24",
+    "Pale Sepia",
+    Hue::YellowRed,
+    Saturation::S2,
+    Brightness::B4,
+    Rgb::new(246, 220, 107),
+);
+
+pub const COLOR_YR27: Color = Color::new(
+    "YR27",
+    "Tuscan Orange",
+    Hue::YellowRed,
+    Saturation::S2,
+    Brightness::B7,
+    Rgb::new(216, 103, 69),
+);
+
+pub const COLOR_YR30: Color = Color::new(
+    "YR30",
+    "Macadamia nut",
+    Hue::YellowRed,
+    Saturation::S3,
+    Brightness::B0,
+    Rgb::new(247, 237, 201),
+);
+
+pub const COLOR_YR31: Color = Color::new(
+    "YR31",
+    "Light Reddish Yellow",
+    Hue::YellowRed,
+    Saturation::S3,
+    Brightness::B1,
+    Rgb::new(255, 230, 178),
+);
+
+pub const COLOR_YR61: Color = Color::new(
+    "YR61",
+    "Spring Orange",
+    Hue::YellowRed,
+    Saturation::S6,
+    Brightness::B1,
+    Rgb::new(254, 226, 204),
+);
+
+pub const COLOR_YR65: Color = Color::new(
+    "YR65",
+    "Atoll",
+    Hue::YellowRed,
+    Saturation::S6,
+    Brightness::B5,
+    Rgb::new(254, 187, 101),
+);
+
+pub const COLOR_YR68: Color = Color::new(
+    "YR68",
+    "Orange",
+    Hue::YellowRed,
+    Saturation::S6,
+    Brightness::B8,
+    Rgb::new(246, 119, 0),
+);
+
+pub const COLOR_YR82: Color = Color::new(
+    "YR82",
+    "Mellow Peach",
+    Hue::YellowRed,
+    Saturation::S8,
+    Brightness::B2,
+    Rgb::new(255, 209, 152),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -1082,9 +1298,31 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_R83,
     COLOR_R85,
     COLOR_R89,
-    // YR0000, YR000, YR00, YR01, YR02,
-    // YR04, YR07, YR09, YR12, YR14, YR15, YR16, YR18, YR20, YR21, YR23, YR24, YR27, YR30, YR31, YR61,
-    // YR65, YR68, YR82, Y0000, Y000, Y00, Y02, Y04, Y06, Y08, Y11, Y13, Y15, Y17, Y18, Y19, Y21, Y23,
+    COLOR_YR0000,
+    COLOR_YR000,
+    COLOR_YR00,
+    COLOR_YR01,
+    COLOR_YR02,
+    COLOR_YR04,
+    COLOR_YR07,
+    COLOR_YR09,
+    COLOR_YR12,
+    COLOR_YR14,
+    COLOR_YR15,
+    COLOR_YR16,
+    COLOR_YR18,
+    COLOR_YR20,
+    COLOR_YR21,
+    COLOR_YR23,
+    COLOR_YR24,
+    COLOR_YR27,
+    COLOR_YR30,
+    COLOR_YR31,
+    COLOR_YR61,
+    COLOR_YR65,
+    COLOR_YR68,
+    COLOR_YR82,
+    // Y0000, Y000, Y00, Y02, Y04, Y06, Y08, Y11, Y13, Y15, Y17, Y18, Y19, Y21, Y23,
     // Y26, Y28, Y32, Y35, Y38, YG0000, YG00, YG01, YG03, YG05, YG06, YG07, YG09, YG11, YG13, YG17,
     // YG21, YG23, YG25, YG41, YG45, YG61, YG63, YG91, YG93, YG95, YG97, YG99, G0000, G000, G00, G02,
     // G03, G05, G07, G09, G12, G14, G16, G17, G19, G20, G21, G24, G28, G40, G43, G46, G82, G85, G94,
