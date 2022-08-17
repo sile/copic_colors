@@ -1384,6 +1384,222 @@ pub const COLOR_Y38: Color = Color::new(
     Rgb::new(255, 255, 153),
 );
 
+pub const COLOR_YG0000: Color = Color::new(
+    "YG0000",
+    "Lily White",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(247, 249, 228),
+);
+
+pub const COLOR_YG00: Color = Color::new(
+    "YG00",
+    "Mimosa Yellow",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(238, 235, 166),
+);
+
+pub const COLOR_YG01: Color = Color::new(
+    "YG01",
+    "Green Bice",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B1,
+    Rgb::new(238, 242, 200),
+);
+
+pub const COLOR_YG03: Color = Color::new(
+    "YG03",
+    "Yellow Green",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B3,
+    Rgb::new(234, 238, 178),
+);
+
+pub const COLOR_YG05: Color = Color::new(
+    "YG05",
+    "Salad",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B5,
+    Rgb::new(226, 233, 153),
+);
+
+pub const COLOR_YG06: Color = Color::new(
+    "YG06",
+    "Yellowish Green",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B6,
+    Rgb::new(211, 227, 152),
+);
+
+pub const COLOR_YG07: Color = Color::new(
+    "YG07",
+    "Acid Green",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B7,
+    Rgb::new(182, 209, 53),
+);
+
+pub const COLOR_YG09: Color = Color::new(
+    "YG09",
+    "Lettuce Green",
+    Hue::YellowGreen,
+    Saturation::S0,
+    Brightness::B9,
+    Rgb::new(147, 197, 96),
+);
+
+pub const COLOR_YG11: Color = Color::new(
+    "YG11",
+    "Mignonette",
+    Hue::YellowGreen,
+    Saturation::S1,
+    Brightness::B1,
+    Rgb::new(236, 243, 213),
+);
+
+pub const COLOR_YG13: Color = Color::new(
+    "YG13",
+    "Chartreuse",
+    Hue::YellowGreen,
+    Saturation::S1,
+    Brightness::B3,
+    Rgb::new(223, 233, 166),
+);
+
+pub const COLOR_YG17: Color = Color::new(
+    "YG17",
+    "Grass Green",
+    Hue::YellowGreen,
+    Saturation::S1,
+    Brightness::B7,
+    Rgb::new(122, 191, 74),
+);
+
+pub const COLOR_YG21: Color = Color::new(
+    "YG21",
+    "Anise",
+    Hue::YellowGreen,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(249, 248, 198),
+);
+
+pub const COLOR_YG23: Color = Color::new(
+    "YG23",
+    "New Leaf",
+    Hue::YellowGreen,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(239, 239, 152),
+);
+
+pub const COLOR_YG25: Color = Color::new(
+    "YG25",
+    "Celadon Green",
+    Hue::YellowGreen,
+    Saturation::S2,
+    Brightness::B5,
+    Rgb::new(220, 228, 127),
+);
+
+pub const COLOR_YG41: Color = Color::new(
+    "YG41",
+    "Pale Cobalt Green",
+    Hue::YellowGreen,
+    Saturation::S4,
+    Brightness::B1,
+    Rgb::new(225, 238, 217),
+);
+
+pub const COLOR_YG45: Color = Color::new(
+    "YG45",
+    "Cobalt Green",
+    Hue::YellowGreen,
+    Saturation::S4,
+    Brightness::B5,
+    Rgb::new(197, 224, 190),
+);
+
+pub const COLOR_YG61: Color = Color::new(
+    "YG61",
+    "Pale Moss",
+    Hue::YellowGreen,
+    Saturation::S6,
+    Brightness::B1,
+    Rgb::new(183, 202, 144),
+);
+
+pub const COLOR_YG63: Color = Color::new(
+    "YG63",
+    "Pea Green",
+    Hue::YellowGreen,
+    Saturation::S6,
+    Brightness::B3,
+    Rgb::new(181, 210, 171),
+);
+
+pub const COLOR_YG67: Color = Color::new(
+    "YG67",
+    "Moss",
+    Hue::YellowGreen,
+    Saturation::S6,
+    Brightness::B7,
+    Rgb::new(151, 197, 146),
+);
+
+pub const COLOR_YG91: Color = Color::new(
+    "YG91",
+    "Putty",
+    Hue::YellowGreen,
+    Saturation::S9,
+    Brightness::B1,
+    Rgb::new(228, 223, 184),
+);
+
+pub const COLOR_YG93: Color = Color::new(
+    "YG93",
+    "Grayish Yellow",
+    Hue::YellowGreen,
+    Saturation::S9,
+    Brightness::B3,
+    Rgb::new(222, 219, 166),
+);
+
+pub const COLOR_YG95: Color = Color::new(
+    "YG95",
+    "Pale Olive",
+    Hue::YellowGreen,
+    Saturation::S9,
+    Brightness::B5,
+    Rgb::new(219, 210, 103),
+);
+
+pub const COLOR_YG97: Color = Color::new(
+    "YG97",
+    "Spanish Olive",
+    Hue::YellowGreen,
+    Saturation::S9,
+    Brightness::B7,
+    Rgb::new(170, 160, 0),
+);
+
+pub const COLOR_YG99: Color = Color::new(
+    "YG99",
+    "Marine Green",
+    Hue::YellowGreen,
+    Saturation::S9,
+    Brightness::B9,
+    Rgb::new(106, 120, 0),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -1522,8 +1738,30 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_Y32,
     COLOR_Y35,
     COLOR_Y38,
-    // YG0000, YG00, YG01, YG03, YG05, YG06, YG07, YG09, YG11, YG13, YG17,
-    // YG21, YG23, YG25, YG41, YG45, YG61, YG63, YG91, YG93, YG95, YG97, YG99, G0000, G000, G00, G02,
+    COLOR_YG0000,
+    COLOR_YG00,
+    COLOR_YG01,
+    COLOR_YG03,
+    COLOR_YG05,
+    COLOR_YG06,
+    COLOR_YG07,
+    COLOR_YG09,
+    COLOR_YG11,
+    COLOR_YG13,
+    COLOR_YG17,
+    COLOR_YG21,
+    COLOR_YG23,
+    COLOR_YG25,
+    COLOR_YG41,
+    COLOR_YG45,
+    COLOR_YG61,
+    COLOR_YG63,
+    COLOR_YG91,
+    COLOR_YG93,
+    COLOR_YG95,
+    COLOR_YG97,
+    COLOR_YG99,
+    // G0000, G000, G00, G02,
     // G03, G05, G07, G09, G12, G14, G16, G17, G19, G20, G21, G24, G28, G40, G43, G46, G82, G85, G94,
     // G99, BG0000, BG000, BG01, BG02, BG05, BG07, BG09, BG10, BG11, BG13, BG15, BG18, BG23, BG32,
     // BG34, BG45, BG49, BG53, BG57, BG70, BG72, BG75, BG78, BG90, BG93, BG96, BG99, B0000, B000, B00,
