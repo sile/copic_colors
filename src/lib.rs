@@ -1600,6 +1600,231 @@ pub const COLOR_YG99: Color = Color::new(
     Rgb::new(106, 120, 0),
 );
 
+pub const COLOR_G0000: Color = Color::new(
+    "G0000",
+    "Crystal Opal",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(246, 250, 246),
+);
+
+pub const COLOR_G000: Color = Color::new(
+    "G000",
+    "Pale Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(247, 251, 247),
+);
+
+pub const COLOR_G00: Color = Color::new(
+    "G00",
+    "Jade Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(234, 245, 246),
+);
+
+pub const COLOR_G02: Color = Color::new(
+    "G02",
+    "Spectrum Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(219, 236, 217),
+);
+
+pub const COLOR_G03: Color = Color::new(
+    "G03",
+    "Meadow Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B3,
+    Rgb::new(176, 222, 127),
+);
+
+pub const COLOR_G05: Color = Color::new(
+    "G05",
+    "Emerald Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B5,
+    Rgb::new(125, 192, 121),
+);
+
+pub const COLOR_G07: Color = Color::new(
+    "G07",
+    "Nile Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B7,
+    Rgb::new(143, 198, 118),
+);
+
+pub const COLOR_G09: Color = Color::new(
+    "G09",
+    "Veronese Green",
+    Hue::Green,
+    Saturation::S0,
+    Brightness::B9,
+    Rgb::new(143, 196, 96),
+);
+
+pub const COLOR_G12: Color = Color::new(
+    "G12",
+    "Sea Green",
+    Hue::Green,
+    Saturation::S1,
+    Brightness::B2,
+    Rgb::new(222, 236, 203),
+);
+
+pub const COLOR_G14: Color = Color::new(
+    "G14",
+    "Apple Green",
+    Hue::Green,
+    Saturation::S1,
+    Brightness::B4,
+    Rgb::new(170, 210, 148),
+);
+
+pub const COLOR_G16: Color = Color::new(
+    "G16",
+    "Malachite",
+    Hue::Green,
+    Saturation::S1,
+    Brightness::B6,
+    Rgb::new(118, 193, 156),
+);
+
+pub const COLOR_G17: Color = Color::new(
+    "G17",
+    "Forest Green",
+    Hue::Green,
+    Saturation::S1,
+    Brightness::B7,
+    Rgb::new(39, 174, 125),
+);
+
+pub const COLOR_G19: Color = Color::new(
+    "G19",
+    "Bright Parrot Green",
+    Hue::Green,
+    Saturation::S1,
+    Brightness::B9,
+    Rgb::new(73, 182, 138),
+);
+
+pub const COLOR_G20: Color = Color::new(
+    "G20",
+    "Wax White",
+    Hue::Green,
+    Saturation::S2,
+    Brightness::B0,
+    Rgb::new(242, 247, 224),
+);
+
+pub const COLOR_G21: Color = Color::new(
+    "G21",
+    "Lime Green",
+    Hue::Green,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(211, 232, 211),
+);
+
+pub const COLOR_G24: Color = Color::new(
+    "G24",
+    "Willow",
+    Hue::Green,
+    Saturation::S2,
+    Brightness::B4,
+    Rgb::new(209, 228, 187),
+);
+
+pub const COLOR_G28: Color = Color::new(
+    "G28",
+    "Ocean Green",
+    Hue::Green,
+    Saturation::S2,
+    Brightness::B8,
+    Rgb::new(35, 150, 101),
+);
+
+pub const COLOR_G29: Color = Color::new(
+    "G29",
+    "Pine Tree Green",
+    Hue::Green,
+    Saturation::S2,
+    Brightness::B9,
+    Rgb::new(62, 134, 103),
+);
+
+pub const COLOR_G40: Color = Color::new(
+    "G40",
+    "Dim Green",
+    Hue::Green,
+    Saturation::S4,
+    Brightness::B0,
+    Rgb::new(236, 244, 227),
+);
+
+pub const COLOR_G43: Color = Color::new(
+    "G43",
+    "Pistachio",
+    Hue::Green,
+    Saturation::S4,
+    Brightness::B3,
+    Rgb::new(146, 179, 92),
+);
+
+pub const COLOR_G46: Color = Color::new(
+    "G46",
+    "Mistletoe",
+    Hue::Green,
+    Saturation::S4,
+    Brightness::B6,
+    Rgb::new(84, 137, 93),
+);
+
+pub const COLOR_G82: Color = Color::new(
+    "G82",
+    "Spring Dim Green",
+    Hue::Green,
+    Saturation::S8,
+    Brightness::B2,
+    Rgb::new(219, 226, 196),
+);
+
+pub const COLOR_G85: Color = Color::new(
+    "G85",
+    "Verdigris",
+    Hue::Green,
+    Saturation::S8,
+    Brightness::B5,
+    Rgb::new(179, 205, 181),
+);
+
+pub const COLOR_G94: Color = Color::new(
+    "G94",
+    "Grayish Olive",
+    Hue::Green,
+    Saturation::S9,
+    Brightness::B4,
+    Rgb::new(170, 179, 142),
+);
+
+pub const COLOR_G99: Color = Color::new(
+    "G99",
+    "Olive",
+    Hue::Green,
+    Saturation::S9,
+    Brightness::B9,
+    Rgb::new(123, 142, 63),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -1761,9 +1986,31 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_YG95,
     COLOR_YG97,
     COLOR_YG99,
-    // G0000, G000, G00, G02,
-    // G03, G05, G07, G09, G12, G14, G16, G17, G19, G20, G21, G24, G28, G40, G43, G46, G82, G85, G94,
-    // G99, BG0000, BG000, BG01, BG02, BG05, BG07, BG09, BG10, BG11, BG13, BG15, BG18, BG23, BG32,
+    COLOR_G0000,
+    COLOR_G000,
+    COLOR_G00,
+    COLOR_G02,
+    COLOR_G03,
+    COLOR_G05,
+    COLOR_G07,
+    COLOR_G09,
+    COLOR_G12,
+    COLOR_G14,
+    COLOR_G16,
+    COLOR_G17,
+    COLOR_G19,
+    COLOR_G20,
+    COLOR_G21,
+    COLOR_G24,
+    COLOR_G28,
+    COLOR_G40,
+    COLOR_G43,
+    COLOR_G46,
+    COLOR_G82,
+    COLOR_G85,
+    COLOR_G94,
+    COLOR_G99,
+    // BG0000, BG000, BG01, BG02, BG05, BG07, BG09, BG10, BG11, BG13, BG15, BG18, BG23, BG32,
     // BG34, BG45, BG49, BG53, BG57, BG70, BG72, BG75, BG78, BG90, BG93, BG96, BG99, B0000, B000, B00,
     // B01, B02, B04, B05, B06, B12, B14, B16, B18, B21, B23, B24, B26, B28, B29, B32, B34, B37, B39,
     // B41, B45, B52, B60, B63, B66, B69, B79, B91, B93, B95, B97, B99, E0000, E000, E00, E01, E02,
