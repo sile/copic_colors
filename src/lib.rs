@@ -1825,6 +1825,564 @@ pub const COLOR_G99: Color = Color::new(
     Rgb::new(123, 142, 63),
 );
 
+pub const COLOR_BG0000: Color = Color::new(
+    "BG0000",
+    "Snow Green",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(245, 249, 246),
+);
+
+pub const COLOR_BG000: Color = Color::new(
+    "BG000",
+    "Pale Aqua",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(247, 251, 249),
+);
+
+pub const COLOR_BG01: Color = Color::new(
+    "BG01",
+    "Aqua Blue",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B1,
+    Rgb::new(214, 235, 248),
+);
+
+pub const COLOR_BG02: Color = Color::new(
+    "BG02",
+    "New Blue",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(212, 235, 237),
+);
+
+pub const COLOR_BG05: Color = Color::new(
+    "BG05",
+    "Holiday Blue",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B5,
+    Rgb::new(156, 213, 230),
+);
+
+pub const COLOR_BG07: Color = Color::new(
+    "BG07",
+    "Petroleum Blue",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B7,
+    Rgb::new(51, 184, 210),
+);
+
+pub const COLOR_BG09: Color = Color::new(
+    "BG09",
+    "Blue Green",
+    Hue::BlueGreen,
+    Saturation::S0,
+    Brightness::B9,
+    Rgb::new(9, 177, 205),
+);
+
+pub const COLOR_BG10: Color = Color::new(
+    "BG10",
+    "Cool Shadow",
+    Hue::BlueGreen,
+    Saturation::S1,
+    Brightness::B0,
+    Rgb::new(231, 243, 242),
+);
+
+pub const COLOR_BG11: Color = Color::new(
+    "BG11",
+    "Moon White",
+    Hue::BlueGreen,
+    Saturation::S1,
+    Brightness::B1,
+    Rgb::new(218, 238, 242),
+);
+
+pub const COLOR_BG13: Color = Color::new(
+    "BG13",
+    "Mint Green",
+    Hue::BlueGreen,
+    Saturation::S1,
+    Brightness::B3,
+    Rgb::new(211, 234, 235),
+);
+
+pub const COLOR_BG15: Color = Color::new(
+    "BG15",
+    "Aqua",
+    Hue::BlueGreen,
+    Saturation::S1,
+    Brightness::B5,
+    Rgb::new(181, 221, 214),
+);
+
+pub const COLOR_BG18: Color = Color::new(
+    "BG18",
+    "Teal Blue",
+    Hue::BlueGreen,
+    Saturation::S1,
+    Brightness::B8,
+    Rgb::new(86, 190, 179),
+);
+
+pub const COLOR_BG23: Color = Color::new(
+    "BG23",
+    "Coral Sea",
+    Hue::BlueGreen,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(205, 231, 224),
+);
+
+pub const COLOR_BG32: Color = Color::new(
+    "BG32",
+    "Aqua Mint",
+    Hue::BlueGreen,
+    Saturation::S3,
+    Brightness::B2,
+    Rgb::new(204, 230, 219),
+);
+
+pub const COLOR_BG34: Color = Color::new(
+    "BG34",
+    "Horizon Green",
+    Hue::BlueGreen,
+    Saturation::S3,
+    Brightness::B4,
+    Rgb::new(184, 222, 219),
+);
+
+pub const COLOR_BG45: Color = Color::new(
+    "BG45",
+    "Nile Blue",
+    Hue::BlueGreen,
+    Saturation::S4,
+    Brightness::B5,
+    Rgb::new(193, 226, 227),
+);
+
+pub const COLOR_BG49: Color = Color::new(
+    "BG49",
+    "Duck Blue",
+    Hue::BlueGreen,
+    Saturation::S4,
+    Brightness::B9,
+    Rgb::new(21, 178, 188),
+);
+
+pub const COLOR_BG53: Color = Color::new(
+    "BG53",
+    "Ice Mint",
+    Hue::BlueGreen,
+    Saturation::S5,
+    Brightness::B3,
+    Rgb::new(92, 182, 189),
+);
+
+pub const COLOR_BG57: Color = Color::new(
+    "BG57",
+    "Jasper",
+    Hue::BlueGreen,
+    Saturation::S5,
+    Brightness::B7,
+    Rgb::new(4, 162, 173),
+);
+
+pub const COLOR_BG70: Color = Color::new(
+    "BG70",
+    "Ocean Mist",
+    Hue::BlueGreen,
+    Saturation::S7,
+    Brightness::B0,
+    Rgb::new(229, 238, 227),
+);
+
+pub const COLOR_BG72: Color = Color::new(
+    "BG72",
+    "Ice Ocean",
+    Hue::BlueGreen,
+    Saturation::S7,
+    Brightness::B2,
+    Rgb::new(136, 190, 193),
+);
+
+pub const COLOR_BG75: Color = Color::new(
+    "BG75",
+    "Abyss Green",
+    Hue::BlueGreen,
+    Saturation::S7,
+    Brightness::B5,
+    Rgb::new(181, 221, 214),
+);
+
+pub const COLOR_BG78: Color = Color::new(
+    "BG78",
+    "Bronze",
+    Hue::BlueGreen,
+    Saturation::S7,
+    Brightness::B8,
+    Rgb::new(72, 117, 107),
+);
+
+pub const COLOR_BG90: Color = Color::new(
+    "BG90",
+    "Gray Sky",
+    Hue::BlueGreen,
+    Saturation::S9,
+    Brightness::B0,
+    Rgb::new(209, 204, 184),
+);
+
+pub const COLOR_BG93: Color = Color::new(
+    "BG93",
+    "Green Gray",
+    Hue::BlueGreen,
+    Saturation::S9,
+    Brightness::B3,
+    Rgb::new(203, 206, 196),
+);
+
+pub const COLOR_BG96: Color = Color::new(
+    "BG96",
+    "Bush",
+    Hue::BlueGreen,
+    Saturation::S9,
+    Brightness::B6,
+    Rgb::new(154, 176, 158),
+);
+
+pub const COLOR_BG99: Color = Color::new(
+    "BG99",
+    "Flagstone Blue",
+    Hue::BlueGreen,
+    Saturation::S9,
+    Brightness::B9,
+    Rgb::new(137, 169, 150),
+);
+
+pub const COLOR_B0000: Color = Color::new(
+    "B0000",
+    "Pale Celestine",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(246, 251, 254),
+);
+
+pub const COLOR_B000: Color = Color::new(
+    "B000",
+    "Pale Porcelain Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(237, 246, 246),
+);
+
+pub const COLOR_B00: Color = Color::new(
+    "B00",
+    "Frost Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(234, 246, 249),
+);
+
+pub const COLOR_B01: Color = Color::new(
+    "B01",
+    "Mint Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B1,
+    Rgb::new(225, 241, 243),
+);
+
+pub const COLOR_B02: Color = Color::new(
+    "B02",
+    "Robin's Egg Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(197, 230, 240),
+);
+
+pub const COLOR_B04: Color = Color::new(
+    "B04",
+    "Tahitian Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B4,
+    Rgb::new(141, 209, 231),
+);
+
+pub const COLOR_B05: Color = Color::new(
+    "B05",
+    "Process Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B5,
+    Rgb::new(100, 197, 229),
+);
+
+pub const COLOR_B06: Color = Color::new(
+    "B06",
+    "Peacock Blue",
+    Hue::Blue,
+    Saturation::S0,
+    Brightness::B6,
+    Rgb::new(0, 172, 226),
+);
+
+pub const COLOR_B12: Color = Color::new(
+    "B12",
+    "Ice Blue",
+    Hue::Blue,
+    Saturation::S1,
+    Brightness::B2,
+    Rgb::new(214, 234, 240),
+);
+
+pub const COLOR_B14: Color = Color::new(
+    "B14",
+    "Light Blue",
+    Hue::Blue,
+    Saturation::S1,
+    Brightness::B4,
+    Rgb::new(141, 209, 235),
+);
+
+pub const COLOR_B16: Color = Color::new(
+    "B16",
+    "Chanine Blue",
+    Hue::Blue,
+    Saturation::S1,
+    Brightness::B6,
+    Rgb::new(1, 186, 231),
+);
+
+pub const COLOR_B18: Color = Color::new(
+    "B18",
+    "Lapis Lazuli",
+    Hue::Blue,
+    Saturation::S1,
+    Brightness::B8,
+    Rgb::new(41, 145, 201),
+);
+
+pub const COLOR_B21: Color = Color::new(
+    "B21",
+    "Baby Blue",
+    Hue::Blue,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(230, 241, 250),
+);
+
+pub const COLOR_B23: Color = Color::new(
+    "B23",
+    "Phthalo Blue",
+    Hue::Blue,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(171, 203, 233),
+);
+
+pub const COLOR_B24: Color = Color::new(
+    "B24",
+    "Sky",
+    Hue::Blue,
+    Saturation::S2,
+    Brightness::B4,
+    Rgb::new(163, 213, 241),
+);
+
+pub const COLOR_B26: Color = Color::new(
+    "B26",
+    "Cobalt Blue",
+    Hue::Blue,
+    Saturation::S2,
+    Brightness::B6,
+    Rgb::new(127, 187, 227),
+);
+
+pub const COLOR_B28: Color = Color::new(
+    "B28",
+    "Royal Blue",
+    Hue::Blue,
+    Saturation::S2,
+    Brightness::B8,
+    Rgb::new(21, 113, 176),
+);
+
+pub const COLOR_B29: Color = Color::new(
+    "B29",
+    "Ultramarine",
+    Hue::Blue,
+    Saturation::S2,
+    Brightness::B9,
+    Rgb::new(0, 119, 186),
+);
+
+pub const COLOR_B32: Color = Color::new(
+    "B32",
+    "Pale Blue",
+    Hue::Blue,
+    Saturation::S3,
+    Brightness::B2,
+    Rgb::new(234, 243, 247),
+);
+
+pub const COLOR_B34: Color = Color::new(
+    "B34",
+    "Manganese Blue",
+    Hue::Blue,
+    Saturation::S3,
+    Brightness::B4,
+    Rgb::new(155, 203, 235),
+);
+
+pub const COLOR_B37: Color = Color::new(
+    "B37",
+    "Antwerp Blue",
+    Hue::Blue,
+    Saturation::S3,
+    Brightness::B7,
+    Rgb::new(4, 114, 163),
+);
+
+pub const COLOR_B39: Color = Color::new(
+    "B39",
+    "Prussian Blue",
+    Hue::Blue,
+    Saturation::S3,
+    Brightness::B9,
+    Rgb::new(40, 106, 167),
+);
+
+pub const COLOR_B41: Color = Color::new(
+    "B41",
+    "Powder Blue",
+    Hue::Blue,
+    Saturation::S4,
+    Brightness::B1,
+    Rgb::new(234, 243, 251),
+);
+
+pub const COLOR_B45: Color = Color::new(
+    "B45",
+    "Smoky Blue",
+    Hue::Blue,
+    Saturation::S4,
+    Brightness::B5,
+    Rgb::new(143, 199, 234),
+);
+
+pub const COLOR_B52: Color = Color::new(
+    "B52",
+    "Soft Greenish Blue",
+    Hue::Blue,
+    Saturation::S5,
+    Brightness::B2,
+    Rgb::new(193, 214, 225),
+);
+
+pub const COLOR_B60: Color = Color::new(
+    "B60",
+    "Pale Blue Gray",
+    Hue::Blue,
+    Saturation::S6,
+    Brightness::B0,
+    Rgb::new(228, 232, 244),
+);
+
+pub const COLOR_B63: Color = Color::new(
+    "B63",
+    "Light Hydrangea",
+    Hue::Blue,
+    Saturation::S6,
+    Brightness::B3,
+    Rgb::new(188, 198, 226),
+);
+
+pub const COLOR_B66: Color = Color::new(
+    "B66",
+    "Clematis",
+    Hue::Blue,
+    Saturation::S6,
+    Brightness::B3,
+    Rgb::new(100, 115, 180),
+);
+
+pub const COLOR_B69: Color = Color::new(
+    "B69",
+    "Stratospheric Blue",
+    Hue::Blue,
+    Saturation::S6,
+    Brightness::B9,
+    Rgb::new(25, 103, 167),
+);
+
+pub const COLOR_B79: Color = Color::new(
+    "B79",
+    "Iris",
+    Hue::Blue,
+    Saturation::S7,
+    Brightness::B9,
+    Rgb::new(49, 65, 143),
+);
+
+pub const COLOR_B91: Color = Color::new(
+    "B91",
+    "Pale Grayish Blue",
+    Hue::Blue,
+    Saturation::S9,
+    Brightness::B1,
+    Rgb::new(225, 233, 237),
+);
+
+pub const COLOR_B93: Color = Color::new(
+    "B93",
+    "Light Crockery Blue",
+    Hue::Blue,
+    Saturation::S9,
+    Brightness::B3,
+    Rgb::new(171, 203, 223),
+);
+
+pub const COLOR_B95: Color = Color::new(
+    "B95",
+    "Light Grayish Cobalt",
+    Hue::Blue,
+    Saturation::S9,
+    Brightness::B5,
+    Rgb::new(136, 176, 202),
+);
+
+pub const COLOR_B97: Color = Color::new(
+    "B97",
+    "Night Blue",
+    Hue::Blue,
+    Saturation::S9,
+    Brightness::B7,
+    Rgb::new(69, 128, 157),
+);
+
+pub const COLOR_B99: Color = Color::new(
+    "B99",
+    "Agate",
+    Hue::Blue,
+    Saturation::S9,
+    Brightness::B9,
+    Rgb::new(0, 77, 122),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -2010,10 +2568,69 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_G85,
     COLOR_G94,
     COLOR_G99,
-    // BG0000, BG000, BG01, BG02, BG05, BG07, BG09, BG10, BG11, BG13, BG15, BG18, BG23, BG32,
-    // BG34, BG45, BG49, BG53, BG57, BG70, BG72, BG75, BG78, BG90, BG93, BG96, BG99, B0000, B000, B00,
-    // B01, B02, B04, B05, B06, B12, B14, B16, B18, B21, B23, B24, B26, B28, B29, B32, B34, B37, B39,
-    // B41, B45, B52, B60, B63, B66, B69, B79, B91, B93, B95, B97, B99, E0000, E000, E00, E01, E02,
+    COLOR_BG0000,
+    COLOR_BG000,
+    COLOR_BG01,
+    COLOR_BG02,
+    COLOR_BG05,
+    COLOR_BG07,
+    COLOR_BG09,
+    COLOR_BG10,
+    COLOR_BG11,
+    COLOR_BG13,
+    COLOR_BG15,
+    COLOR_BG18,
+    COLOR_BG23,
+    COLOR_BG32,
+    COLOR_BG34,
+    COLOR_BG45,
+    COLOR_BG49,
+    COLOR_BG53,
+    COLOR_BG57,
+    COLOR_BG70,
+    COLOR_BG72,
+    COLOR_BG75,
+    COLOR_BG78,
+    COLOR_BG90,
+    COLOR_BG93,
+    COLOR_BG96,
+    COLOR_BG99,
+    COLOR_B0000,
+    COLOR_B000,
+    COLOR_B00,
+    COLOR_B01,
+    COLOR_B02,
+    COLOR_B04,
+    COLOR_B05,
+    COLOR_B06,
+    COLOR_B12,
+    COLOR_B14,
+    COLOR_B16,
+    COLOR_B18,
+    COLOR_B21,
+    COLOR_B23,
+    COLOR_B24,
+    COLOR_B26,
+    COLOR_B28,
+    COLOR_B29,
+    COLOR_B32,
+    COLOR_B34,
+    COLOR_B37,
+    COLOR_B39,
+    COLOR_B41,
+    COLOR_B45,
+    COLOR_B52,
+    COLOR_B60,
+    COLOR_B63,
+    COLOR_B66,
+    COLOR_B69,
+    COLOR_B79,
+    COLOR_B91,
+    COLOR_B93,
+    COLOR_B95,
+    COLOR_B97,
+    COLOR_B99,
+    // E0000, E000, E00, E01, E02,
     // E04, E07, E08, E09, E11, E13, E15, E17, E18, E19, E21, E23, E25, E27, E29, E30, E31, E33, E34,
     // E35, E37, E39, E40, E41, E42, E43, E44, E47, E49, E50, E51, E53, E55, E57, E59, E70, E71, E74,
     // E77, E79, E81, E84, E87, E89, E93, E95, E97, E99, C00, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9,
