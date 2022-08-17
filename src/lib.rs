@@ -118,6 +118,7 @@ pub enum Brightness {
     B7,
     B8,
     B9,
+    B10,
     Undefined,
 }
 
@@ -136,6 +137,7 @@ impl Brightness {
             Brightness::B7 => Some(9),
             Brightness::B8 => Some(10),
             Brightness::B9 => Some(11),
+            Brightness::B10 => Some(12),
             Brightness::Undefined => None,
         }
     }
@@ -2860,7 +2862,520 @@ pub const COLOR_E99: Color = Color::new(
     Rgb::new(192, 101, 8),
 );
 
-pub const ALL_COLORS: [Color; 368] = [
+pub const COLOR_C_00: Color = Color::new(
+    "C-00",
+    "Cool Gray No.00",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B0,
+    Rgb::new(241, 244, 246),
+);
+
+pub const COLOR_C_0: Color = Color::new(
+    "C-0",
+    "Cool Gray No.0",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B0,
+    Rgb::new(237, 242, 244),
+);
+
+pub const COLOR_C_1: Color = Color::new(
+    "C-1",
+    "Cool Gray No.1",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B1,
+    Rgb::new(228, 234, 237),
+);
+
+pub const COLOR_C_2: Color = Color::new(
+    "C-2",
+    "Cool Gray No.2",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B2,
+    Rgb::new(217, 224, 228),
+);
+
+pub const COLOR_C_3: Color = Color::new(
+    "C-3",
+    "Cool Gray No.3",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B3,
+    Rgb::new(208, 213, 218),
+);
+
+pub const COLOR_C_4: Color = Color::new(
+    "C-4",
+    "Cool Gray No.4",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B4,
+    Rgb::new(185, 193, 199),
+);
+
+pub const COLOR_C_5: Color = Color::new(
+    "C-5",
+    "Cool Gray No.5",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B5,
+    Rgb::new(164, 174, 178),
+);
+
+pub const COLOR_C_6: Color = Color::new(
+    "C-6",
+    "Cool Gray No.6",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B6,
+    Rgb::new(147, 155, 161),
+);
+
+pub const COLOR_C_7: Color = Color::new(
+    "C-7",
+    "Cool Gray No.7",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B7,
+    Rgb::new(119, 127, 131),
+);
+
+pub const COLOR_C_8: Color = Color::new(
+    "C-8",
+    "Cool Gray No.8",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B8,
+    Rgb::new(99, 105, 109),
+);
+
+pub const COLOR_C_9: Color = Color::new(
+    "C-9",
+    "Cool Gray No.9",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B9,
+    Rgb::new(83, 81, 80),
+);
+
+pub const COLOR_C_10: Color = Color::new(
+    "C-10",
+    "Cool Gray No.10",
+    Hue::CoolGray,
+    Saturation::Undefined,
+    Brightness::B10,
+    Rgb::new(31, 30, 30),
+);
+
+pub const COLOR_N_0: Color = Color::new(
+    "N-0",
+    "Neutral Gray No.0",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B0,
+    Rgb::new(242, 242, 242),
+);
+
+pub const COLOR_N_1: Color = Color::new(
+    "N-1",
+    "Neutral Gray No.1",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B1,
+    Rgb::new(235, 235, 235),
+);
+
+pub const COLOR_N_2: Color = Color::new(
+    "N-2",
+    "Neutral Gray No.2",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B2,
+    Rgb::new(227, 227, 227),
+);
+
+pub const COLOR_N_3: Color = Color::new(
+    "N-3",
+    "Neutral Gray No.3",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B3,
+    Rgb::new(220, 220, 220),
+);
+
+pub const COLOR_N_4: Color = Color::new(
+    "N-4",
+    "Neutral Gray No.4",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B4,
+    Rgb::new(201, 201, 201),
+);
+
+pub const COLOR_N_5: Color = Color::new(
+    "N-5",
+    "Neutral Gray No.5",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B5,
+    Rgb::new(183, 182, 182),
+);
+
+pub const COLOR_N_6: Color = Color::new(
+    "N-6",
+    "Neutral Gray No.6",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B6,
+    Rgb::new(164, 164, 164),
+);
+
+pub const COLOR_N_7: Color = Color::new(
+    "N-7",
+    "Neutral Gray No.7",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B7,
+    Rgb::new(133, 132, 133),
+);
+
+pub const COLOR_N_8: Color = Color::new(
+    "N-8",
+    "Neutral Gray No.8",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B8,
+    Rgb::new(111, 110, 110),
+);
+
+pub const COLOR_N_9: Color = Color::new(
+    "N-9",
+    "Neutral Gray No.9",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B9,
+    Rgb::new(83, 81, 80),
+);
+
+pub const COLOR_N_10: Color = Color::new(
+    "N-10",
+    "Neutral Gray No.10",
+    Hue::NeutralGray,
+    Saturation::Undefined,
+    Brightness::B10,
+    Rgb::new(31, 30, 30),
+);
+
+pub const COLOR_T_0: Color = Color::new(
+    "T-0",
+    "Toner Gray No.0",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B0,
+    Rgb::new(242, 242, 242),
+);
+
+pub const COLOR_T_1: Color = Color::new(
+    "T-1",
+    "Toner Gray No.1",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B1,
+    Rgb::new(240, 240, 238),
+);
+
+pub const COLOR_T_2: Color = Color::new(
+    "T-2",
+    "Toner Gray No.2",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B2,
+    Rgb::new(233, 233, 230),
+);
+
+pub const COLOR_T_3: Color = Color::new(
+    "T-3",
+    "Toner Gray No.3",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B3,
+    Rgb::new(221, 220, 215),
+);
+
+pub const COLOR_T_4: Color = Color::new(
+    "T-4",
+    "Toner Gray No.4",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B4,
+    Rgb::new(202, 200, 196),
+);
+
+pub const COLOR_T_5: Color = Color::new(
+    "T-5",
+    "Toner Gray No.5",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B5,
+    Rgb::new(184, 181, 176),
+);
+
+pub const COLOR_T_6: Color = Color::new(
+    "T-6",
+    "Toner Gray No.6",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B6,
+    Rgb::new(164, 162, 158),
+);
+
+pub const COLOR_T_7: Color = Color::new(
+    "T-7",
+    "Toner Gray No.7",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B7,
+    Rgb::new(133, 131, 128),
+);
+
+pub const COLOR_T_8: Color = Color::new(
+    "T-8",
+    "Toner Gray No.8",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B8,
+    Rgb::new(111, 109, 106),
+);
+
+pub const COLOR_T_9: Color = Color::new(
+    "T-9",
+    "Toner Gray No.9",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B9,
+    Rgb::new(83, 80, 77),
+);
+
+pub const COLOR_T_10: Color = Color::new(
+    "T-10",
+    "Toner Gray No.10",
+    Hue::TonerGray,
+    Saturation::Undefined,
+    Brightness::B10,
+    Rgb::new(31, 30, 30),
+);
+
+pub const COLOR_W_00: Color = Color::new(
+    "W-00",
+    "Warm Gray No.00",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B00,
+    Rgb::new(247, 247, 241),
+);
+
+pub const COLOR_W_0: Color = Color::new(
+    "W-0",
+    "Warm Gray No.0",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B0,
+    Rgb::new(247, 246, 240),
+);
+
+pub const COLOR_W_1: Color = Color::new(
+    "W-1",
+    "Warm Gray No.1",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B1,
+    Rgb::new(238, 237, 231),
+);
+
+pub const COLOR_W_2: Color = Color::new(
+    "W-2",
+    "Warm Gray No.2",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B2,
+    Rgb::new(238, 237, 233),
+);
+
+pub const COLOR_W_3: Color = Color::new(
+    "W-3",
+    "Warm Gray No.3",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B3,
+    Rgb::new(221, 220, 213),
+);
+
+pub const COLOR_W_4: Color = Color::new(
+    "W-4",
+    "Warm Gray No.4",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B4,
+    Rgb::new(202, 201, 194),
+);
+
+pub const COLOR_W_5: Color = Color::new(
+    "W-5",
+    "Warm Gray No.5",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B5,
+    Rgb::new(184, 182, 176),
+);
+
+pub const COLOR_W_6: Color = Color::new(
+    "W-6",
+    "Warm Gray No.6",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B6,
+    Rgb::new(164, 163, 156),
+);
+
+pub const COLOR_W_7: Color = Color::new(
+    "W-7",
+    "Warm Gray No.7",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B7,
+    Rgb::new(134, 132, 127),
+);
+
+pub const COLOR_W_8: Color = Color::new(
+    "W-8",
+    "Warm Gray No.8",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B8,
+    Rgb::new(111, 110, 105),
+);
+
+pub const COLOR_W_9: Color = Color::new(
+    "W-9",
+    "Warm Gray No.9",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B9,
+    Rgb::new(83, 80, 76),
+);
+
+pub const COLOR_W_10: Color = Color::new(
+    "W-10",
+    "Warm Gray No.10",
+    Hue::WarmGray,
+    Saturation::Undefined,
+    Brightness::B10,
+    Rgb::new(31, 30, 29),
+);
+
+pub const COLOR_0: Color = Color::new(
+    "0",
+    "Colorless Blender",
+    Hue::Achromatic,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(255, 255, 255),
+);
+
+pub const COLOR_100: Color = Color::new(
+    "100",
+    "Black",
+    Hue::Achromatic,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(1, 1, 1),
+);
+
+pub const COLOR_110: Color = Color::new(
+    "110",
+    "Special Black",
+    Hue::Achromatic,
+    Saturation::S1,
+    Brightness::B0,
+    Rgb::new(1, 1, 1),
+);
+
+pub const COLOR_FV: Color = Color::new(
+    "FV",
+    "Fluorescent Violet",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(1, 1, 1),
+);
+
+pub const COLOR_FRV: Color = Color::new(
+    "FRV",
+    "Fluorescent Pink",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(249, 176, 203),
+);
+
+pub const COLOR_FYR: Color = Color::new(
+    "FYR",
+    "Fluorescent Orange",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(255, 215, 164),
+);
+
+pub const COLOR_FY: Color = Color::new(
+    "FY",
+    "Fluorescent Yellow",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(255, 249, 160),
+);
+
+pub const COLOR_FYG: Color = Color::new(
+    "FYG",
+    "Fluorescent Yellow Green",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(175, 206, 21),
+);
+
+pub const COLOR_FG: Color = Color::new(
+    "FG",
+    "Fluorescent Green",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(1, 1, 1), // TODO
+);
+
+pub const COLOR_FBG: Color = Color::new(
+    "FBG",
+    "Fluorescent Blue Green",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(128, 205, 231),
+);
+
+pub const COLOR_FB: Color = Color::new(
+    "FB",
+    "Fluorescent Blue",
+    Hue::Flourescent,
+    Saturation::Undefined,
+    Brightness::Undefined,
+    Rgb::new(1, 1, 1), // TODO
+);
+
+pub const ALL_COLORS: [Color; 358] = [
     COLOR_BV0000,
     COLOR_BV000,
     COLOR_BV00,
@@ -3016,6 +3531,7 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_YG45,
     COLOR_YG61,
     COLOR_YG63,
+    COLOR_YG67,
     COLOR_YG91,
     COLOR_YG93,
     COLOR_YG95,
@@ -3038,6 +3554,7 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_G21,
     COLOR_G24,
     COLOR_G28,
+    COLOR_G29,
     COLOR_G40,
     COLOR_G43,
     COLOR_G46,
@@ -3160,8 +3677,61 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_E95,
     COLOR_E97,
     COLOR_E99,
-    // C00, C0, C1, C2, C3, C4, C5, C6, C7, C8, C9,
-    // C10, N0, N1, N2, N3, N4, N5, N6, N7, N8, N9, N10, T0, T1, T2, T3, T4, T5, T6, T7, T8, T9, T10,
-    // W00, W0, W1, W2, W3, W4, W5, W6, W7, W8, W9, W10, // 0, 100, 110
-    // FV, FRV, FYR, FY, FYG, FG, FBG, FB,
+    COLOR_C_00,
+    COLOR_C_0,
+    COLOR_C_1,
+    COLOR_C_2,
+    COLOR_C_3,
+    COLOR_C_4,
+    COLOR_C_5,
+    COLOR_C_6,
+    COLOR_C_7,
+    COLOR_C_8,
+    COLOR_C_9,
+    COLOR_C_10,
+    COLOR_N_0,
+    COLOR_N_1,
+    COLOR_N_2,
+    COLOR_N_3,
+    COLOR_N_4,
+    COLOR_N_5,
+    COLOR_N_6,
+    COLOR_N_7,
+    COLOR_N_8,
+    COLOR_N_9,
+    COLOR_N_10,
+    COLOR_T_0,
+    COLOR_T_1,
+    COLOR_T_2,
+    COLOR_T_3,
+    COLOR_T_4,
+    COLOR_T_5,
+    COLOR_T_6,
+    COLOR_T_7,
+    COLOR_T_8,
+    COLOR_T_9,
+    COLOR_T_10,
+    COLOR_W_00,
+    COLOR_W_0,
+    COLOR_W_1,
+    COLOR_W_2,
+    COLOR_W_3,
+    COLOR_W_4,
+    COLOR_W_5,
+    COLOR_W_6,
+    COLOR_W_7,
+    COLOR_W_8,
+    COLOR_W_9,
+    COLOR_W_10,
+    COLOR_0,
+    COLOR_100,
+    COLOR_110,
+    COLOR_FV,
+    COLOR_FRV,
+    COLOR_FYR,
+    COLOR_FY,
+    COLOR_FYG,
+    COLOR_FG,
+    COLOR_FBG,
+    COLOR_FB,
 ];
