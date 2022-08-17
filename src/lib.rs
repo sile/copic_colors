@@ -1204,6 +1204,186 @@ pub const COLOR_YR82: Color = Color::new(
     Rgb::new(255, 209, 152),
 );
 
+pub const COLOR_Y0000: Color = Color::new(
+    "Y0000",
+    "Yellow Fluorite",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B000,
+    Rgb::new(255, 254, 247),
+);
+
+pub const COLOR_Y000: Color = Color::new(
+    "Y000",
+    "Pale Lemon",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B00,
+    Rgb::new(255, 255, 246),
+);
+
+pub const COLOR_Y00: Color = Color::new(
+    "Y00",
+    "Barium Yellow",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B0,
+    Rgb::new(255, 254, 229),
+);
+
+pub const COLOR_Y02: Color = Color::new(
+    "Y02",
+    "Canary Yellow",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B2,
+    Rgb::new(249, 245, 160),
+);
+
+pub const COLOR_Y04: Color = Color::new(
+    "Y04",
+    "Acacia",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B4,
+    Rgb::new(243, 233, 83),
+);
+
+pub const COLOR_Y06: Color = Color::new(
+    "Y06",
+    "Yellow",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B6,
+    Rgb::new(255, 247, 114),
+);
+
+pub const COLOR_Y08: Color = Color::new(
+    "Y08",
+    "Acid Yellow",
+    Hue::Yellow,
+    Saturation::S0,
+    Brightness::B8,
+    Rgb::new(255, 245, 0),
+);
+
+pub const COLOR_Y11: Color = Color::new(
+    "Y11",
+    "Pale Yellow",
+    Hue::Yellow,
+    Saturation::S1,
+    Brightness::B1,
+    Rgb::new(255, 252, 211),
+);
+
+pub const COLOR_Y13: Color = Color::new(
+    "Y13",
+    "Lemon Yellow",
+    Hue::Yellow,
+    Saturation::S1,
+    Brightness::B3,
+    Rgb::new(252, 249, 183),
+);
+
+pub const COLOR_Y15: Color = Color::new(
+    "Y15",
+    "Cadmium Yellow",
+    Hue::Yellow,
+    Saturation::S1,
+    Brightness::B5,
+    Rgb::new(255, 238, 114),
+);
+
+pub const COLOR_Y17: Color = Color::new(
+    "Y17",
+    "Golden Yellow",
+    Hue::Yellow,
+    Saturation::S1,
+    Brightness::B7,
+    Rgb::new(255, 234, 85),
+);
+
+pub const COLOR_Y18: Color = Color::new(
+    "Y18",
+    "Lightning Yellow",
+    Hue::Yellow,
+    Saturation::S1,
+    Brightness::B8,
+    Rgb::new(255, 242, 87),
+);
+
+pub const COLOR_Y19: Color = Color::new(
+    "Y19",
+    "Napoli Yellow",
+    Hue::Yellow,
+    Saturation::S1,
+    Brightness::B9,
+    Rgb::new(255, 238, 57),
+);
+
+pub const COLOR_Y21: Color = Color::new(
+    "Y21",
+    "Buttercup Yellow",
+    Hue::Yellow,
+    Saturation::S2,
+    Brightness::B1,
+    Rgb::new(255, 242, 201),
+);
+
+pub const COLOR_Y23: Color = Color::new(
+    "Y23",
+    "Yellowish Beige",
+    Hue::Yellow,
+    Saturation::S2,
+    Brightness::B3,
+    Rgb::new(253, 234, 190),
+);
+
+pub const COLOR_Y26: Color = Color::new(
+    "Y26",
+    "Mustard",
+    Hue::Yellow,
+    Saturation::S2,
+    Brightness::B6,
+    Rgb::new(246, 229, 111),
+);
+
+pub const COLOR_Y28: Color = Color::new(
+    "Y28",
+    "Lionet Gold",
+    Hue::Yellow,
+    Saturation::S2,
+    Brightness::B8,
+    Rgb::new(213, 181, 110),
+);
+
+pub const COLOR_Y32: Color = Color::new(
+    "Y32",
+    "Cashmere",
+    Hue::Yellow,
+    Saturation::S3,
+    Brightness::B2,
+    Rgb::new(251, 230, 202),
+);
+
+pub const COLOR_Y35: Color = Color::new(
+    "Y35",
+    "Maize",
+    Hue::Yellow,
+    Saturation::S3,
+    Brightness::B5,
+    Rgb::new(255, 224, 129),
+);
+
+pub const COLOR_Y38: Color = Color::new(
+    "Y38",
+    "Honey",
+    Hue::Yellow,
+    Saturation::S3,
+    Brightness::B8,
+    Rgb::new(255, 255, 153),
+);
+
 pub const ALL_COLORS: [Color; 368] = [
     COLOR_BV0000,
     COLOR_BV000,
@@ -1322,8 +1502,27 @@ pub const ALL_COLORS: [Color; 368] = [
     COLOR_YR65,
     COLOR_YR68,
     COLOR_YR82,
-    // Y0000, Y000, Y00, Y02, Y04, Y06, Y08, Y11, Y13, Y15, Y17, Y18, Y19, Y21, Y23,
-    // Y26, Y28, Y32, Y35, Y38, YG0000, YG00, YG01, YG03, YG05, YG06, YG07, YG09, YG11, YG13, YG17,
+    COLOR_Y0000,
+    COLOR_Y000,
+    COLOR_Y00,
+    COLOR_Y02,
+    COLOR_Y04,
+    COLOR_Y06,
+    COLOR_Y08,
+    COLOR_Y11,
+    COLOR_Y13,
+    COLOR_Y15,
+    COLOR_Y17,
+    COLOR_Y18,
+    COLOR_Y19,
+    COLOR_Y21,
+    COLOR_Y23,
+    COLOR_Y26,
+    COLOR_Y28,
+    COLOR_Y32,
+    COLOR_Y35,
+    COLOR_Y38,
+    // YG0000, YG00, YG01, YG03, YG05, YG06, YG07, YG09, YG11, YG13, YG17,
     // YG21, YG23, YG25, YG41, YG45, YG61, YG63, YG91, YG93, YG95, YG97, YG99, G0000, G000, G00, G02,
     // G03, G05, G07, G09, G12, G14, G16, G17, G19, G20, G21, G24, G28, G40, G43, G46, G82, G85, G94,
     // G99, BG0000, BG000, BG01, BG02, BG05, BG07, BG09, BG10, BG11, BG13, BG15, BG18, BG23, BG32,
