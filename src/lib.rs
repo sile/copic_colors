@@ -1,3 +1,11 @@
+//! Copic color list.
+//!
+//! About Copic colors, please refer to the following pages:
+//! - [https://copic.jp/en/color/]
+//! - [https://copic.jp/en/about/color-system/]
+//! - [https://copic.too.com/blogs/educational/how-are-copic-colors-organized-and-named]
+
+/// Copic color.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct Color {
     pub number: &'static str,
@@ -28,6 +36,7 @@ impl Color {
     }
 }
 
+/// RGB.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub struct Rgb {
     pub r: u8,
@@ -63,6 +72,7 @@ pub enum Hue {
     Flourescent,
 }
 
+/// Saguration.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Saturation {
     S0,
@@ -104,6 +114,7 @@ impl PartialOrd for Saturation {
     }
 }
 
+/// Brightness.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
 pub enum Brightness {
     B000,
