@@ -3261,7 +3261,7 @@ pub const COLOR_FV: Color = Color::new(
     Family::Flourescent,
     Group::Undefined,
     Value::Undefined,
-    Rgb::new(1, 1, 1),
+    Rgb::new(132, 112, 178),
 );
 
 pub const COLOR_FRV: Color = Color::new(
