@@ -3,6 +3,7 @@
 //! About Copic colors, please refer to the following documents:
 //! - <https://copic.too.com/blogs/educational/copic-color-system>
 //! - <https://copic.too.com/blogs/educational/how-are-copic-colors-organized-and-named>
+#![no_std]
 
 /// Copic color.
 #[derive(Debug, Clone, Copy, PartialEq, Eq, Hash)]
